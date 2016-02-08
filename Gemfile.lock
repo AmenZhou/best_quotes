@@ -1,15 +1,21 @@
+GIT
+  remote: https://github.com/AmenZhou/rulers.git
+  revision: 51f89deee271c4f727be0376d42d2ed5b54e27d7
+  branch: master
+  specs:
+    rulers (0.1.4)
+      rack
+
 GEM
   remote: https://rubygems.org/
   specs:
     rack (1.6.4)
-    rulers (0.1.2.3)
-      rack
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rulers
+  rulers!
 
 BUNDLED WITH
    1.10.6
