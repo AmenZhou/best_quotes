@@ -1,5 +1,5 @@
 class HomeController < Rulers::Controller
   def index
-    "Home Page"
+    "<h1>Home Page</h1>"
   end
 end

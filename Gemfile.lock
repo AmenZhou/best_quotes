@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/AmenZhou/rulers.git
-  revision: 51f89deee271c4f727be0376d42d2ed5b54e27d7
+  revision: 00fa20484bf2277076204b48449ef914700f4451
   branch: master
   specs:
-    rulers (0.1.4)
+    rulers (0.2.0)
       rack
 
 GEM
