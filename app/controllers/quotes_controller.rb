@@ -5,9 +5,7 @@ class QuotesController < Rulers::Controller
       "\n<pre>\n#{env}\n</pre>"
   end
 
-  class QuotesController < Rulers::Controller
-    def exception
-      raise "It's a bad one!"
-    end
+  def exception
+    raise "It's a bad one!"
   end
 end
