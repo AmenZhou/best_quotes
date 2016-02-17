@@ -1,13 +1,14 @@
-GIT
-  remote: https://github.com/AmenZhou/rulers.git
-  revision: 953dfbb06226dfdfb20a67180db95c5ba30ae94e
-  branch: master
+PATH
+  remote: ../rulers
   specs:
-    rulers (0.2.0)
+    rulers (0.3.0)
+      erubis
+      rack
 
 GEM
-  remote: https://rubygems.org/
+  remote: https://gems.github.com/
   specs:
+    erubis (2.7.0)
     ffi (1.9.10)
     listen (3.0.5)
       rb-fsevent (>= 0.9.3)
@@ -26,7 +27,7 @@ DEPENDENCIES
   listen
   rack (= 1.6.4)
   rerun (= 0.11.0)
-  rulers (= 0.2.0)!
+  rulers (= 0.3.0)!
 
 BUNDLED WITH
    1.10.6
