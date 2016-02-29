@@ -3,16 +3,19 @@ PATH
   specs:
     rulers (0.3.0)
       erubis
+      multi_json
       rack
 
 GEM
   remote: https://gems.github.com/
   specs:
+    byebug (8.2.2)
     erubis (2.7.0)
     ffi (1.9.10)
     listen (3.0.5)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
+    multi_json (1.11.2)
     rack (1.6.4)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
@@ -24,6 +27,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  byebug
   listen
   rack (= 1.6.4)
   rerun (= 0.11.0)
